@@ -44,4 +44,4 @@ INSERT INTO users (username, password, location) VALUES ("user1", "14dsfkjhw4", 
 
 INSERT INTO users (username, password, location) VALUES ("user2", "sdkjsdfk", "Melbourne");
 
-INSERT INTO users (username, password, location) VALUES ("user2", "sdkjsdfk", "Melbourne");
+INSERT INTO books (title, author, isbn) VALUES ("how to read", "Brooke Bui", "Melbourne");
