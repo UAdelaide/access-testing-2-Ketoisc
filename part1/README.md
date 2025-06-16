@@ -19,6 +19,7 @@ CREATE TABLE marketplace (
     listing_id INT AUTO_INCREMENT,
     seller_id INT,
     book_id INT,
-    isbn INT,
+    price INT,
+    seller_location VARCHAR(50) NOT NULL,
     PRIMARY KEY (book_id)
 );
