@@ -43,3 +43,5 @@ CREATE TABLE history (
 INSERT INTO users (username, password, location) VALUES ("user1", "14dsfkjhw4", "Adelaide");
 
 INSERT INTO users (username, password, location) VALUES ("user2", "sdkjsdfk", "Melbourne");
+
+INSERT INTO users (username, password, location) VALUES ("user2", "sdkjsdfk", "Melbourne");
