@@ -11,6 +11,6 @@ CREATE TABLE books (
     book_id INT AUTO_INCREMENT,
     title VARCHAR(50) NOT NULL,
     author VARCHAR(50) NOT NULL,
-    isbn INT NOT NULL,
-    PRIMARY KEY (user_id)
+    isbn INT,
+    PRIMARY KEY (book_id)
 );
