@@ -29,6 +29,11 @@ CREATE TABLE marketplace (
 
 CREATE TABLE history (
     transaction_id INT AUTO_INCREMENT,
+    buyer_id INT,
+    seller_id INT,
+    book_id INT,
+    seller_id INT,
+    book_id INT,
     title VARCHAR(50) NOT NULL,
     author VARCHAR(50) NOT NULL,
     isbn INT,
