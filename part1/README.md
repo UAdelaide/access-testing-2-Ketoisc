@@ -35,4 +35,8 @@ CREATE TABLE history (
     price INT,
     timestamp TIMESTAMP,
     PRIMARY KEY (transaction_id)
+    FOREIGN KEY (seller_id) REFERENCES users(user_id),
+    FOREIGN KEY (book_id) REFERENCES books(book_id),
+    FOREIGN KEY (seller_id) REFERENCES users(user_id),
+    FOREIGN KEY (book_id) REFERENCES books(book_id)
 );
