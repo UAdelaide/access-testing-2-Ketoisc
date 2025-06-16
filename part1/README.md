@@ -1,3 +1,5 @@
 Put your files for part1 here
 
-CREATE TABLE task1
+CREATE TABLE task1 (
+    
+)
