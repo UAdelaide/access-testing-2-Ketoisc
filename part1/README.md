@@ -14,3 +14,11 @@ CREATE TABLE books (
     isbn INT,
     PRIMARY KEY (book_id)
 );
+
+CREATE TABLE marketplace (
+    listing_id INT AUTO_INCREMENT,
+    title VARCHAR(50) NOT NULL,
+    author VARCHAR(50) NOT NULL,
+    isbn INT,
+    PRIMARY KEY (book_id)
+);
