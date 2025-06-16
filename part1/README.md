@@ -26,3 +26,11 @@ CREATE TABLE marketplace (
     FOREIGN KEY (seller_id) REFERENCES users(user_id),
     FOREIGN KEY (book_id) REFERENCES books(book_id)
 );
+
+CREATE TABLE history (
+    transaction_id INT AUTO_INCREMENT,
+    title VARCHAR(50) NOT NULL,
+    author VARCHAR(50) NOT NULL,
+    isbn INT,
+    PRIMARY KEY (book_id)
+);
