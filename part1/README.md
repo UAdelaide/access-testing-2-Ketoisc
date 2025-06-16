@@ -23,6 +23,6 @@ CREATE TABLE marketplace (
     seller_location VARCHAR(50) NOT NULL,
     PRIMARY KEY (listing_id),
     FOREIGN KEY (seller_id) REFERENCES users(user_id),
-    FOREIGN KEY (seller_id) REFERENCES users(user_id),
+    FOREIGN KEY (seller_location) REFERENCES users(location),
     FOREIGN KEY (book_id) REFERENCES books(book_id)
 );
