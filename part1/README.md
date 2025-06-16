@@ -32,10 +32,7 @@ CREATE TABLE history (
     buyer_id INT,
     seller_id INT,
     book_id INT,
-    seller_id INT,
-    book_id INT,
-    title VARCHAR(50) NOT NULL,
-    author VARCHAR(50) NOT NULL,
-    isbn INT,
-    PRIMARY KEY (book_id)
+    price INT,
+    timestamp TIMESTAMP,
+    PRIMARY KEY (transaction_id)
 );
