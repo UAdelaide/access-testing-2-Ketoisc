@@ -40,4 +40,4 @@ CREATE TABLE history (
     FOREIGN KEY (buyer_id) REFERENCES users(user_id)
 );
 
-INSERT INTO users 
+INSERT INTO users VALUES ()
