@@ -47,3 +47,5 @@ INSERT INTO users (username, password, location) VALUES ("user2", "sdkjsdfk", "M
 INSERT INTO books (title, author, isbn) VALUES ("how to read", "Brooke Bui", "12334");
 
 INSERT INTO marketplace (seller_id, book_id, price, seller_location) VALUES (1, 1, 35, "Adelaide");
+
+INSERT INTO history (seller_id, book_id, price, seller_location) VALUES (1, 1, 35, "Adelaide");
