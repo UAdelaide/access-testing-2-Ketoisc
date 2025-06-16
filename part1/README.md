@@ -39,3 +39,5 @@ CREATE TABLE history (
     FOREIGN KEY (book_id) REFERENCES books(book_id),
     FOREIGN KEY (buyer_id) REFERENCES users(user_id)
 );
+
+INSERT INTO users 
