@@ -48,4 +48,4 @@ INSERT INTO books (title, author, isbn) VALUES ("how to read", "Brooke Bui", "12
 
 INSERT INTO marketplace (seller_id, book_id, price, seller_location) VALUES (1, 1, 35, "Adelaide");
 
-INSERT INTO history (buyer_id, seller_id, book_id, price, timestamp) VALUES (2, 1, 1, );
+INSERT INTO history (buyer_id, seller_id, book_id, price, timestamp) VALUES (2, 1, 1, 35, NOW());
